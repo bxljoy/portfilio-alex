@@ -43,8 +43,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/jesslee2023/frontend-developer-portfolio.git
-cd frontend-developer-portfolio
+git clone https://github.com/bxljoy/portfilio-alex.git
+cd portfolio-alex
 ```
 
 **Installation**
