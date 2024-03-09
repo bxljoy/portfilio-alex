@@ -22,6 +22,7 @@ import {
   recipe,
   halloween,
   pencilpaws,
+  socialMedia,
 } from "../assets";
 
 export const navLinks = [
@@ -186,92 +187,71 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Online Library",
+    name: "My Social Media",
     description:
-      "Web-based platform that allows users to search, view and buy a wide array of digital resources including ebooks, journals, audio, and video materials.",
+      "Web-based platform that allows users to upload your photos and adding some comments.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "Material-UI",
         color: "pink-text-gradient",
       },
     ],
-    image: library,
-    source_code_link: "https://github.com/jesslee2023/team-7-react-project",
-    deploy_link: "https://online-library-jess-react.netlify.app",
+    image: socialMedia,
+    source_code_link: "https://github.com/bxljoy/my-social-media",
+    deploy_link: "https://www.bromma.net/",
   },
-  {
-    name: "Recipe Finder",
-    description:
-      "Web application that enables users to search for varities of recipes, view the details for different recipes.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: recipe,
-    source_code_link: "https://github.com/jesslee2023/Team6-collaborative-work",
-    deploy_link: "https://hungry-chief-team6.netlify.app",
-  },
-  {
-    name: "Hallotween Town",
-    description:
-      "A website is dedicated to celebrating the spookiest time of the year and showcasing the best Halloween-themed events, activities, and attractions.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: halloween,
-    source_code_link: "https://github.com/jesslee2023/Halloween-town",
-    deploy_link: "https://halloween-jess.netlify.app",
-  },
-  {
-    name: "Draw and Guess",
-    description: "A website is dedicated to show the game of Draw and Guess.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: pencilpaws,
-    source_code_link: "https://github.com/jesslee2023/PencilPawsBeta",
-    deploy_link: "https://jesslee-pencilpaws.netlify.app",
-  },
+  // {
+  //   name: "Recipe Finder",
+  //   description:
+  //     "Web application that enables users to search for varities of recipes, view the details for different recipes.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: recipe,
+  //   source_code_link: "https://github.com/jesslee2023/Team6-collaborative-work",
+  //   deploy_link: "https://hungry-chief-team6.netlify.app",
+  // },
+  // {
+  //   name: "Hallotween Town",
+  //   description:
+  //     "A website is dedicated to celebrating the spookiest time of the year and showcasing the best Halloween-themed events, activities, and attractions.",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: halloween,
+  //   source_code_link: "https://github.com/jesslee2023/Halloween-town",
+  //   deploy_link: "https://halloween-jess.netlify.app",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

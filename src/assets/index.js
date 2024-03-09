@@ -37,6 +37,7 @@ import recipe from "./recipe.png";
 import halloween from "./halloween.png";
 import hyper from "./company/hyper.png";
 import pencilpaws from "./pencilpaws.png";
+import socialMedia from "./socialMedia.png";
 
 export {
   logo,
@@ -75,4 +76,5 @@ export {
   pencilpaws,
   asiainfo,
   hdzb,
+  socialMedia,
 };
