@@ -7,8 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import logoJ from "./letter-j.svg";
-import download from "./download.png";
-import downloadHover from "./downloadHover.png";
+import download from "./download.svg";
+import downloadHover from "./downloadHover.svg";
 import resume from "./resume.png";
 
 import css from "./tech/css.png";
