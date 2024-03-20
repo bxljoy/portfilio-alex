@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { navLinks, contact } from "../constants";
+import { logo, menu, close, github, linkedin } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -48,6 +48,24 @@ const Navbar = () => {
             <span className="sm:block hidden"> | Full Stack Developer</span>
           </p>
         </Link>
+
+        <div className="flex gap-4">
+          <div
+            onClick={() => window.open(contact.github, "_blank")}
+            className="inline-block cursor-pointer"
+          >
+            {" "}
+            <img src={github} alt="github" className="w-12 h-12" />
+          </div>
+
+          <div
+            onClick={() => window.open(contact.linkedin, "_blank")}
+            className="inline-block cursor-pointer"
+          >
+            {" "}
+            <img src={linkedin} alt="linkedin" className="w-12 h-12" />
+          </div>
+        </div>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
