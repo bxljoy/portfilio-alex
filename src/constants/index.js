@@ -206,7 +206,7 @@ const projects = [
     ],
     image: socialMedia,
     source_code_link: "https://github.com/bxljoy/my-social-media",
-    deploy_link: "https://www.bromma.net/",
+    deploy_link: "https://alex-social-media.vercel.app/posts",
   },
   // {
   //   name: "Recipe Finder",
@@ -254,4 +254,9 @@ const projects = [
   // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const contact = {
+  linkedin: "https://www.linkedin.com/in/xiaolei-bao-aa4b7b257/",
+  github: "https://github.com/bxljoy",
+};
+
+export { services, technologies, experiences, testimonials, projects, contact };
