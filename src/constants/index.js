@@ -18,11 +18,9 @@ import {
   threejs,
   asiainfo,
   hdzb,
-  library,
   recipe,
-  halloween,
-  pencilpaws,
   socialMedia,
+  ecommerce,
 } from "../assets";
 
 export const navLinks = [
@@ -225,7 +223,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: recipe,
+    image: ecommerce,
     source_code_link: "https://github.com/bxljoy/my-ecommerce-landing.git",
     deploy_link: "https://my-ecommerce-landing.vercel.app/",
   },

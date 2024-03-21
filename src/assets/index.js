@@ -42,6 +42,7 @@ import halloween from "./halloween.png";
 import hyper from "./company/hyper.png";
 import pencilpaws from "./pencilpaws.png";
 import socialMedia from "./socialMedia.png";
+import ecommerce from "./my-ecommerce.png";
 
 export {
   logo,
@@ -85,4 +86,5 @@ export {
   download,
   downloadHover,
   resume,
+  ecommerce,
 };
