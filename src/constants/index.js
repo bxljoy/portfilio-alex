@@ -208,28 +208,27 @@ const projects = [
     source_code_link: "https://github.com/bxljoy/my-social-media",
     deploy_link: "https://alex-social-media.vercel.app/posts",
   },
-  // {
-  //   name: "Recipe Finder",
-  //   description:
-  //     "Web application that enables users to search for varities of recipes, view the details for different recipes.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "bootstrap",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: recipe,
-  //   source_code_link: "https://github.com/jesslee2023/Team6-collaborative-work",
-  //   deploy_link: "https://hungry-chief-team6.netlify.app",
-  // },
+  {
+    name: "My E-commerce",
+    description: "The landing page for my E-commerce.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: recipe,
+    source_code_link: "https://github.com/bxljoy/my-ecommerce-landing.git",
+    deploy_link: "https://my-ecommerce-landing.vercel.app/",
+  },
   // {
   //   name: "Hallotween Town",
   //   description:
