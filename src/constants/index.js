@@ -225,7 +225,7 @@ const projects = [
     ],
     image: ecommerce,
     source_code_link: "https://github.com/bxljoy/my-ecommerce-landing.git",
-    deploy_link: "https://my-ecommerce-landing.vercel.app/",
+    deploy_link: "https://www.bromma.net",
   },
   // {
   //   name: "Hallotween Town",
