@@ -204,7 +204,7 @@ const projects = [
     ],
     image: socialMedia,
     source_code_link: "https://github.com/bxljoy/my-social-media",
-    deploy_link: "https://alex-social-media.vercel.app/posts",
+    deploy_link: "https://www.bromma.net",
   },
   {
     name: "My E-commerce",
@@ -225,7 +225,7 @@ const projects = [
     ],
     image: ecommerce,
     source_code_link: "https://github.com/bxljoy/my-ecommerce-landing.git",
-    deploy_link: "https://www.bromma.net",
+    deploy_link: "https://my-ecommerce-landing.vercel.app/",
   },
   // {
   //   name: "Hallotween Town",
