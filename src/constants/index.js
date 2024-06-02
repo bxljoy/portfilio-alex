@@ -18,9 +18,9 @@ import {
   threejs,
   asiainfo,
   hdzb,
-  recipe,
   socialMedia,
   ecommerce,
+  shareNotes,
 } from "../assets";
 
 export const navLinks = [
@@ -227,28 +227,28 @@ const projects = [
     source_code_link: "https://github.com/bxljoy/my-ecommerce-landing.git",
     deploy_link: "https://my-ecommerce-landing.vercel.app/",
   },
-  // {
-  //   name: "Hallotween Town",
-  //   description:
-  //     "A website is dedicated to celebrating the spookiest time of the year and showcasing the best Halloween-themed events, activities, and attractions.",
-  //   tags: [
-  //     {
-  //       name: "html",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "javascript",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: halloween,
-  //   source_code_link: "https://github.com/jesslee2023/Halloween-town",
-  //   deploy_link: "https://halloween-jess.netlify.app",
-  // },
+  {
+    name: "Share Notes",
+    description:
+      "A website is dedicated to sharing notes and knowledge with others.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shareNotes,
+    source_code_link: "https://github.com/bxljoy/share-notes",
+    deploy_link: "https://share-notes-peach.vercel.app/",
+  },
 ];
 
 const contact = {

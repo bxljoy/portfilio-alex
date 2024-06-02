@@ -43,6 +43,7 @@ import hyper from "./company/hyper.png";
 import pencilpaws from "./pencilpaws.png";
 import socialMedia from "./socialMedia.png";
 import ecommerce from "./my-ecommerce.png";
+import shareNotes from "./shareNotes.png";
 
 export {
   logo,
@@ -87,4 +88,5 @@ export {
   downloadHover,
   resume,
   ecommerce,
+  shareNotes,
 };
