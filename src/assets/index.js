@@ -44,7 +44,7 @@ import pencilpaws from "./pencilpaws.png";
 import socialMedia from "./socialMedia.png";
 import ecommerce from "./my-ecommerce.png";
 import shareNotes from "./shareNotes.png";
-import instaLingo from "./instaLingo.png";
+import instaLingo from "./InstaLingo.png";
 
 export {
   logo,
