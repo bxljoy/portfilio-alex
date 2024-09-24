@@ -21,6 +21,7 @@ import {
   socialMedia,
   ecommerce,
   shareNotes,
+  instaLingo,
 } from "../assets";
 
 export const navLinks = [
@@ -184,6 +185,28 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "InstaLingo",
+    description:
+      "Mobile application allows users to convert images to learning material.",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nativewind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: instaLingo,
+    source_code_link: "https://github.com/bxljoy/google-cloud-function",
+    deploy_link: "https://apps.apple.com/th/app/instalingo/id6680142408",
+  },
   {
     name: "My Social Media",
     description:
