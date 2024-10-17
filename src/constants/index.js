@@ -227,7 +227,7 @@ const projects = [
     ],
     image: socialMedia,
     source_code_link: "https://github.com/bxljoy/my-social-media",
-    deploy_link: "https://www.bromma.net",
+    deploy_link: "https://alex-social-media.vercel.app",
   },
   {
     name: "My E-commerce",
